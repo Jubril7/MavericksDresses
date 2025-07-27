@@ -11,10 +11,9 @@ const images = [
 
 const Gallery = () => {
   return (
-    <section className="relative bg-gradient-to-r from-purple-700 via-purple-600 to-purple-500 py-10 overflow-hidden">
+    <section id="gallery" className="relative bg-gradient-to-r from-purple-700 via-purple-600 to-purple-500 py-10 overflow-hidden">
       <h2 className="text-3xl font-bold text-white text-center mb-6">Our Gallery</h2>
 
-      {/* Scrolling Container */}
       <div className="whitespace-nowrap overflow-hidden">
         <div className="scrolling-gallery inline-flex gap-4">
           {images.concat(images).map((img, i) => (
